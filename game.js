@@ -5,7 +5,7 @@ let buttonWidth = 400;
 let buttonHeight = 100;
 let x = 500, y = 700; // Initial position of the fairy
 
-let monsterHealth =10; 
+let monsterHealth =15; 
 let littleMonsters = [];
 let lastSpawnTime = 0; // Tracks the last spawn time for little monsters
 let spawnInterval = 3500; // Spawn every 3.5 seconds
