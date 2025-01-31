@@ -148,7 +148,7 @@ function gameScreen() {
             p.y < monsterY + 290 // Height of the monster
         ) {
             monsterHit = true;
-            hitTimer = 20; // Show hit effect for 30 frames
+            hitTimer = 20; // Show hit effect for 20 frames
             projectiles.splice(i, 1); // Remove projectile
             monsterHitCount++; // Increase the hit count
 
