@@ -5,7 +5,7 @@ let buttonWidth = 400;
 let buttonHeight = 100;
 let x = 500, y = 700; // Initial position of the fairy
 
-let monsterHealth =15; 
+let monsterHealth =12; 
 let littleMonsters = [];
 let lastSpawnTime = 0; // Tracks the last spawn time for little monsters
 let spawnInterval = 3500; // Spawn every 3.5 seconds
@@ -67,7 +67,7 @@ function startScreen() {
     text("Fairy the Fighter", 250, 380);
     //instruction text 
     textSize(20);
-      text("You should hit the monster for 15 times to win", width / 3.5, height / 1.4);
+      text("You should hit the monster for 12 times to win", width / 3.5, height / 1.4);
       text("Use LEFT and RIGHT arrow keys to move", width / 3.5, height / 1.5);
       text("The far you go the wrong distance shotting you have", width / 3.5, height / 1.3);
       
