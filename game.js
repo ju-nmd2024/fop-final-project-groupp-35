@@ -26,7 +26,7 @@ let thrustingLeft = false;
 let thrustingRight = false;
 
 // Projectiles arrays
-let projectiles = [] ; 
+let projectiles = [] ; //store bullets for the fairy
 
 
 //Little monster 
@@ -105,7 +105,7 @@ function gameScreen() {
     }
     
     // **Move and draw little monsters**
-    for (let i = littleMonsters.length - 1; i >= 0; i--) {
+    for (let i = littleMonsters.length - 1; i >= 0; i--) { //this line I dont really understand it 100%,but if dont have this , because every single time i draw 3 monster, if fairy shot monster and 1 disappear,if this  loop dont have i-- , somehow the 2 others monster can be error
         let monster = littleMonsters[i];
         moveLittleMonster(monster);
         drawLittleMonster(monster.x, monster.y);
